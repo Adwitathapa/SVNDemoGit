@@ -13,7 +13,7 @@ namespace ConsoleApp2
         int enrollments;
         String[] enrolledStudents = new String[maxCapacity];
 
-        Course(String CourseName)
+      public  Course(String CourseName)
         {
             this.courseName = CourseName;
             this.enrollments = 0;
@@ -24,7 +24,7 @@ namespace ConsoleApp2
         {
             enrolledStudents[enrollments] = studentName;
             enrollments++;
-            Console.WriteLine();
+            Console.WriteLine(studentName + " enrolled  for " + this.courseName);
         }
 
         public void unenrollStudent(String studentName)
