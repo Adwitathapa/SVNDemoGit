@@ -11,6 +11,7 @@ public class EvenNumber
         String number = (num1 % 2 == 0) ? "Even" : "Odd";
 
         Console.Write("Entered number " + number);
+        Console.Write("Finished")
 
 
     }
