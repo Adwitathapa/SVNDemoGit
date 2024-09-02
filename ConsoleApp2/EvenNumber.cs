@@ -1,11 +1,11 @@
 ﻿using System;
 
-public class Class1
+public class Car
 {
      int noOfWheels;
      String model;
      String engineInLiters;
-	public Class1()
+	public Car()
 	{
 	}
 }
