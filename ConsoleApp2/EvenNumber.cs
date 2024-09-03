@@ -8,4 +8,10 @@ public class Car
 	public Car()
 	{
 	}
+    public Car(int noOfWheels, String model, String engineInLiters)
+    {
+        this.engineInLiters = engineInLiters;
+        this.model = model;
+        this. noOfWheels = noOfWheels;
+    }
 }
