@@ -5,3 +5,7 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("Enter username:");
 string userName = Console.ReadLine();
 Console.WriteLine("Username is: " + userName);
+Course obj = new Course("MBA");
+obj.enrollStudent("Rahul");
+
+obj.enrollStudent("Thapa");
