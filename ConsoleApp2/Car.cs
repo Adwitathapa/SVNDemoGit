@@ -19,4 +19,10 @@ public class Car
     {
         return false;
     }
+
+    public int NoOfWheels
+    {
+        get;
+        set;
+    }
 }
